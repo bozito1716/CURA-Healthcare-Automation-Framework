@@ -1,0 +1,8 @@
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/org/example/Main.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/pageObjects/Base_PO.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/pageObjects/Book_Appointment_PO.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/pageObjects/Login_PO.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/stepDefinitions/Appointment_Button_Steps.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/stepDefinitions/Book_Appointment_Steps.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/stepDefinitions/Login_Page_Steps.java
+/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/src/main/java/stepDefinitions/base/Hooks.java

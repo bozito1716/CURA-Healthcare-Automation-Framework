@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="43.073" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/test-classes:/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/classes:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-java/4.34.0/selenium-java-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0.jar:/Users/bozito/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.34.0/selenium-chrome-driver-4.34.0.jar:/Users/bozito/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.34.0/selenium-chromium-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-json/4.34.0/selenium-json-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.34.0/selenium-manager-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.34.0/selenium-devtools-v136-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.34.0/selenium-devtools-v137-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.34.0/selenium-devtools-v138-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.34.0/selenium-edge-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.34.0/selenium-firefox-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-http/4.34.0/selenium-http-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.34.0/selenium-ie-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.34.0/selenium-remote-driver-4.34.0.jar:/Users/bozito/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/bozito/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/bozito/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/bozito/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-api/1.51.0/opentelemetry-api-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-context/1.51.0/opentelemetry-context-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.51.0/opentelemetry-exporter-logging-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.51.0/opentelemetry-sdk-common-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.51.0/opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.51.0/opentelemetry-sdk-extension-autoconfigure-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.51.0/opentelemetry-sdk-trace-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.51.0/opentelemetry-sdk-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.51.0/opentelemetry-sdk-metrics-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.51.0/opentelemetry-sdk-logs-1.51.0.jar:/Users/bozito/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-os/4.34.0/selenium-os-4.34.0.jar:/Users/bozito/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.34.0/selenium-safari-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-support/4.34.0/selenium-support-4.34.0.jar:/Users/bozito/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.1/webdrivermanager-6.1.1.jar:/Users/bozito/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/bozito/.m2/repository/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar:/Users/bozito/.m2/repository/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java/3.5.3/docker-java-3.5.3.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-core/3.5.3/docker-java-core-3.5.3.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-api/3.5.3/docker-java-api-3.5.3.jar:/Users/bozito/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.4/jackson-annotations-2.18.4.jar:/Users/bozito/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.4/jackson-databind-2.18.4.jar:/Users/bozito/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.4/jackson-core-2.18.4.jar:/Users/bozito/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.3/docker-java-transport-httpclient5-3.5.3.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-transport/3.5.3/docker-java-transport-3.5.3.jar:/Users/bozito/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/bozito/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/bozito/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/bozito/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/bozito/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/bozito/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/bozito/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/bozito/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/bozito/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/bozito/.m2/repository/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-java/7.27.2/cucumber-java-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-core/7.27.2/cucumber-core-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-gherkin/7.27.2/cucumber-gherkin-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.27.2/cucumber-gherkin-messages-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/gherkin/34.0.0/gherkin-34.0.0.jar:/Users/bozito/.m2/repository/org/assertj/assertj-core/3.27.4/assertj-core-3.27.4.jar:/Users/bozito/.m2/repository/io/cucumber/messages/28.1.0/messages-28.1.0.jar:/Users/bozito/.m2/repository/io/cucumber/pretty-formatter/2.1.0/pretty-formatter-2.1.0.jar:/Users/bozito/.m2/repository/io/cucumber/query/13.6.0/query-13.6.0.jar:/Users/bozito/.m2/repository/io/cucumber/testng-xml-formatter/0.5.0/testng-xml-formatter-0.5.0.jar:/Users/bozito/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/bozito/.m2/repository/io/cucumber/datatable/7.27.2/datatable-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-plugin/7.27.2/cucumber-plugin-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/docstring/7.27.2/docstring-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/html-formatter/21.13.0/html-formatter-21.13.0.jar:/Users/bozito/.m2/repository/io/cucumber/junit-xml-formatter/0.8.1/junit-xml-formatter-0.8.1.jar:/Users/bozito/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/bozito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-testng/7.26.0/cucumber-testng-7.26.0.jar:/Users/bozito/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/bozito/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/bozito/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-picocontainer/7.26.0/cucumber-picocontainer-7.26.0.jar:/Users/bozito/.m2/repository/org/picocontainer/picocontainer/2.15.2/picocontainer-2.15.2.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="dataproviderthreadcount" value="5"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/bozito/Library/Java/JavaVirtualMachines/ms-21.0.7/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/surefire/surefirebooter-20250825193332299_3.jar /Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/surefire 2025-08-25T19-33-32_264-jvmRun1 surefire-20250825193332299_1tmp surefire_0-20250825193332299_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/test-classes:/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/classes:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-java/4.34.0/selenium-java-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0.jar:/Users/bozito/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.34.0/selenium-chrome-driver-4.34.0.jar:/Users/bozito/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.34.0/selenium-chromium-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-json/4.34.0/selenium-json-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.34.0/selenium-manager-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.34.0/selenium-devtools-v136-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.34.0/selenium-devtools-v137-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.34.0/selenium-devtools-v138-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.34.0/selenium-edge-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.34.0/selenium-firefox-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-http/4.34.0/selenium-http-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.34.0/selenium-ie-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.34.0/selenium-remote-driver-4.34.0.jar:/Users/bozito/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/bozito/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/bozito/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/bozito/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-api/1.51.0/opentelemetry-api-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-context/1.51.0/opentelemetry-context-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.51.0/opentelemetry-exporter-logging-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.51.0/opentelemetry-sdk-common-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.51.0/opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.51.0/opentelemetry-sdk-extension-autoconfigure-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.51.0/opentelemetry-sdk-trace-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.51.0/opentelemetry-sdk-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.51.0/opentelemetry-sdk-metrics-1.51.0.jar:/Users/bozito/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.51.0/opentelemetry-sdk-logs-1.51.0.jar:/Users/bozito/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-os/4.34.0/selenium-os-4.34.0.jar:/Users/bozito/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.34.0/selenium-safari-driver-4.34.0.jar:/Users/bozito/.m2/repository/org/seleniumhq/selenium/selenium-support/4.34.0/selenium-support-4.34.0.jar:/Users/bozito/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.1/webdrivermanager-6.1.1.jar:/Users/bozito/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/bozito/.m2/repository/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar:/Users/bozito/.m2/repository/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java/3.5.3/docker-java-3.5.3.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-core/3.5.3/docker-java-core-3.5.3.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-api/3.5.3/docker-java-api-3.5.3.jar:/Users/bozito/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.4/jackson-annotations-2.18.4.jar:/Users/bozito/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.4/jackson-databind-2.18.4.jar:/Users/bozito/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.4/jackson-core-2.18.4.jar:/Users/bozito/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.3/docker-java-transport-httpclient5-3.5.3.jar:/Users/bozito/.m2/repository/com/github/docker-java/docker-java-transport/3.5.3/docker-java-transport-3.5.3.jar:/Users/bozito/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/bozito/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/bozito/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/bozito/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/bozito/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/bozito/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/bozito/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/bozito/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/bozito/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/bozito/.m2/repository/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-java/7.27.2/cucumber-java-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-core/7.27.2/cucumber-core-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-gherkin/7.27.2/cucumber-gherkin-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.27.2/cucumber-gherkin-messages-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/gherkin/34.0.0/gherkin-34.0.0.jar:/Users/bozito/.m2/repository/org/assertj/assertj-core/3.27.4/assertj-core-3.27.4.jar:/Users/bozito/.m2/repository/io/cucumber/messages/28.1.0/messages-28.1.0.jar:/Users/bozito/.m2/repository/io/cucumber/pretty-formatter/2.1.0/pretty-formatter-2.1.0.jar:/Users/bozito/.m2/repository/io/cucumber/query/13.6.0/query-13.6.0.jar:/Users/bozito/.m2/repository/io/cucumber/testng-xml-formatter/0.5.0/testng-xml-formatter-0.5.0.jar:/Users/bozito/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/bozito/.m2/repository/io/cucumber/datatable/7.27.2/datatable-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-plugin/7.27.2/cucumber-plugin-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/docstring/7.27.2/docstring-7.27.2.jar:/Users/bozito/.m2/repository/io/cucumber/html-formatter/21.13.0/html-formatter-21.13.0.jar:/Users/bozito/.m2/repository/io/cucumber/junit-xml-formatter/0.8.1/junit-xml-formatter-0.8.1.jar:/Users/bozito/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/bozito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-testng/7.26.0/cucumber-testng-7.26.0.jar:/Users/bozito/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/bozito/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/bozito/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/bozito/.m2/repository/io/cucumber/cucumber-picocontainer/7.26.0/cucumber-picocontainer-7.26.0.jar:/Users/bozito/.m2/repository/org/picocontainer/picocontainer/2.15.2/picocontainer-2.15.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bozito"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Users/bozito/Library/Java/JavaVirtualMachines/ms-21.0.7/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode/target/surefire/surefirebooter-20250825193332299_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="bozito"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-11369939"/>
+    <property name="localRepository" value="/Users/bozito/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/bm/5gt195js4d12mj4d5jtnvjdr0000gn/T/"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="cucumber.filter.tags" value="(@regression and (not @ignore))"/>
+    <property name="user.dir" value="/Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project Backcode"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="webdriver.gecko.driver" value="/Users/bozito/.cache/selenium/geckodriver/mac-arm64/0.36.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/bozito/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Redirect to login page when using the toggle menu button&quot;, &quot;Cura Healthcare - Make an Appointment Button&quot;](1)" classname="runners.MainRunner" time="10.035">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:19
+
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:20
+
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:21
+
+@appointment-button @regression
+Scenario: Redirect to login page when using the toggle menu button # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Appointment_Button.feature:11
+
+@appointment-button @regression
+Scenario: Redirect to login page when clicking Make Appointment button # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Appointment_Button.feature:7
+  ✔ Given I access the Cura Healthcare Home Page                   # stepDefinitions.Appointment_Button_Steps.i_access_the_cura_healthcare_home_page()
+  ✔ When I click on toggle menu                                    # stepDefinitions.Appointment_Button_Steps.i_click_on_toggle_menu()
+  ✔ And I click on login                                           # stepDefinitions.Appointment_Button_Steps.i_click_on_login()
+  ✔ Then I should be redirected to the login page                  # stepDefinitions.Appointment_Button_Steps.i_should_be_redirected_to_the_login_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Tokyo CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicare                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](2)" classname="runners.MainRunner" time="0.969">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:22
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ Given I access the Cura Healthcare Home Page                       # stepDefinitions.Appointment_Button_Steps.i_access_the_cura_healthcare_home_page()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Redirect to login page when clicking Make Appointment button&quot;, &quot;Cura Healthcare - Make an Appointment Button&quot;](3)" classname="runners.MainRunner" time="0.751">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:23
+  ✔ When I click on make appointment button                            # stepDefinitions.Appointment_Button_Steps.i_click_on()
+  ✔ Then I should be redirected to the login page                      # stepDefinitions.Appointment_Button_Steps.i_should_be_redirected_to_the_login_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Tokyo CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Tokyo CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](4)" classname="runners.MainRunner" time="1.419">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:24
+  ✔ And I choose the Healthcare Program Medicare                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicaid                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](5)" classname="runners.MainRunner" time="0.488">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:25
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](6)" classname="runners.MainRunner" time="1.864">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:26
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Tokyo CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicaid                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Tokyo CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](7)" classname="runners.MainRunner" time="1.331">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:27
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Tokyo CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I choose the Healthcare Program None                         # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program None                         # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](8)" classname="runners.MainRunner" time="0.223">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:28
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](9)" classname="runners.MainRunner" time="1.831">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:29
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Hongkong CURA Healthcare Center        # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the Healthcare Program Medicare                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the facility Hongkong CURA Healthcare Center        # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I choose the Healthcare Program Medicare                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](10)" classname="runners.MainRunner" time="0.227">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:30
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](11)" classname="runners.MainRunner" time="2.049">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:31
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Hongkong CURA Healthcare Center        # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicaid                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Hongkong CURA Healthcare Center        # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicaid                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](12)" classname="runners.MainRunner" time="0.93">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:32
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](13)" classname="runners.MainRunner" time="2.1">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:33
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Hongkong CURA Healthcare Center        # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program None                         # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](14)" classname="runners.MainRunner" time="1.479">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:34
+  ✔ And I choose the facility Seoul CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicare                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Seoul CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](15)" classname="runners.MainRunner" time="1.001">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:35
+  ✔ And I choose the Healthcare Program Medicare                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ And I choose the facility Seoul CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](16)" classname="runners.MainRunner" time="1.198">
+    <system-out><![CDATA[
+@book-appointment @regression
+Scenario Outline:                                                    # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Book_Appointment.feature:36
+  ✔ And I choose the Healthcare Program Medicaid                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](17)" classname="runners.MainRunner" time="1.518">
+    <system-out><![CDATA[
+@login-page @regression
+Scenario Outline: Successful & Unsuccessful Login       # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Login_Page.feature:15
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Seoul CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program Medicaid                     # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](18)" classname="runners.MainRunner" time="1.635">
+    <system-out><![CDATA[
+@login-page @regression
+Scenario Outline: Successful & Unsuccessful Login # file:///Users/bozito/IdeaProjects/Cura_Healthcare_Framework/CURA_Healthcare_Project%20Backcode/src/test/resources/features/Login_Page.feature:16
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Seoul CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program None                         # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Seoul CURA Healthcare Center           # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "uncheck" the "applying for hospital admission" checkbox   # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ Given I access the Cura Healthcare Login Page       # stepDefinitions.Login_Page_Steps.i_access_the_cura_healthcare_login_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](19)" classname="runners.MainRunner" time="2.606">
+    <system-out><![CDATA[  ✔ And I choose the Healthcare Program None                         # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ When I enter a username John Doe                    # stepDefinitions.Login_Page_Steps.i_enter_a_username(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I enter a password ThisIsNotAPassword           # stepDefinitions.Login_Page_Steps.i_enter_a_password(java.lang.String)
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+  ✔ And I click on the login button                     # stepDefinitions.Login_Page_Steps.i_click_on_the_login_button()
+  ✔ Then I should be redirected to the appointment page # stepDefinitions.Login_Page_Steps.i_should_be_redirected_to_the_appointment_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful &amp; Unsuccessful Login&quot;, &quot;Cura Healthcare - Login Page&quot;](20)" classname="runners.MainRunner" time="2.787"/>
+  <testcase name="runScenario[&quot;&quot;, &quot;Cura Healthcare - Book Appointment&quot;](21)" classname="runners.MainRunner" time="7.422">
+    <system-out><![CDATA[  ✔ Given The user is logged in                                      # stepDefinitions.Book_Appointment_Steps.the_user_is_logged_in()
+  ✔ Then I access the Cura Healthcare Book Appointment Page          # stepDefinitions.Book_Appointment_Steps.i_access_the_cura_healthcare_book_appointment_page()
+  ✔ And I choose the facility Hongkong CURA Healthcare Center        # stepDefinitions.Book_Appointment_Steps.i_choose_the_facility(java.lang.String)
+  ✔ And I "check" the "applying for hospital admission" checkbox     # stepDefinitions.Book_Appointment_Steps.i_toggle_the_checkbox(java.lang.String)
+  ✔ And I choose the Healthcare Program None                         # stepDefinitions.Book_Appointment_Steps.i_choose_the_healthcare_program(java.lang.String)
+  ✔ And I choose the visit date                                      # stepDefinitions.Book_Appointment_Steps.i_choose_the_visit_date()
+  ✔ And I leave a comment                                            # stepDefinitions.Book_Appointment_Steps.i_leave_a_comment()
+  ✔ And I click on book appointment button                           # stepDefinitions.Book_Appointment_Steps.i_click_on_book_appointment_button()
+✅ Text matches: Appointment Confirmation
+  ✔ Then I should be redirected to the Appointment Confirmation page # stepDefinitions.Book_Appointment_Steps.i_should_be_redirected_to_the_appointment_confirmation_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful &amp; Unsuccessful Login&quot;, &quot;Cura Healthcare - Login Page&quot;](22)" classname="runners.MainRunner" time="13.22">
+    <system-out><![CDATA[  ✔ Given I access the Cura Healthcare Login Page # stepDefinitions.Login_Page_Steps.i_access_the_cura_healthcare_login_page()
+  ✔ When I enter a username John Doe              # stepDefinitions.Login_Page_Steps.i_enter_a_username(java.lang.String)
+  ✔ And I enter a password wrongPassword          # stepDefinitions.Login_Page_Steps.i_enter_a_password(java.lang.String)
+  ✔ And I click on the login button               # stepDefinitions.Login_Page_Steps.i_click_on_the_login_button()
+  ✔ Then I should see an error message            # stepDefinitions.Login_Page_Steps.i_should_see_an_error_message()
+]]></system-out>
+  </testcase>
+</testsuite>
