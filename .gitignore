@@ -1,0 +1,73 @@
+# ========================================
+# OS-specific
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# ========================================
+# IDE-specific
+# ========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse (if someone else opens your project there)
+.classpath
+.project
+.settings/
+
+# VS Code (if you/others open project there)
+.vscode/
+
+# ========================================
+# Java / Maven / Gradle
+# ========================================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# ========================================
+# Others
+# ========================================
+# Local environment files
+.env
+*.properties.local
+
+# Temporary files
+*.swp
+*.swo
